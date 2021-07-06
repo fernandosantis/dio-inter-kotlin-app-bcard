@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">Business Card App</string>
+    <string name="label_business_card">Cartão de Visita</string>
+    <string name="label_add_card">Novo Cartão</string>
+    <string name="label_nome">Nome</string>
+    <string name="lbl_name_complete">Digite o Nome Completo</string>
+    <string name="lbl_phone_complete">Digite o Telefone</string>
+    <string name="label_telefone">Telefone</string>
+    <string name="label_email">E-mail</string>
+    <string name="lbl_email">Digite o Endereço de E-mail</string>
+    <string name="label_empresa">Empresa</string>
+    <string name="lbl_Empresa">Digite a Empresa</string>
+    <string name="label_select_color">Selecione a Cor da tag</string>
+    <string name="label_confirm">Salvar</string>
 </resources>
