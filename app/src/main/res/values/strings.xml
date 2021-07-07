@@ -12,4 +12,6 @@
     <string name="lbl_Empresa">Digite a Empresa</string>
     <string name="label_select_color">Selecione a Cor da tag</string>
     <string name="label_confirm">Salvar</string>
+    <string name="label_show_success">Cartao Cadastrado!</string>
+    <string name="label_show_fail">Corrija os Erros e tente novamente</string>
 </resources>
