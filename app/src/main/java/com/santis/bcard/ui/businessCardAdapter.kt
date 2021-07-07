@@ -34,7 +34,7 @@ class BusinessCardAdapter : ListAdapter<BusinessCard, BusinessCardAdapter.ViewHo
             binding.tvEmail.text = item.email
             binding.tvEmpresa.text = item.empresa
             binding.tvPhone.text = item.tel
-            binding.mcvContent.setCardBackgroundColor(Color.parseColor(item.cor))
+            binding.shpCor.setBackgroundColor(Color.parseColor(item.cor))
             binding.mcvContent.setOnClickListener {
                 listenerShare(it)
             }

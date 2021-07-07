@@ -22,12 +22,13 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         >
-        <com.google.android.material.imageview.ShapeableImageView
+        <ImageView
             android:id="@+id/shp_cor"
             android:layout_width="12dp"
             android:layout_height="match_parent"
             android:background="@color/blue_800"
             />
+
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"

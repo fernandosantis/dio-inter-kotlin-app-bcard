@@ -6,6 +6,7 @@ import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import com.santis.bcard.App
 import com.santis.bcard.databinding.ActivityMainBinding
+import com.santis.bcard.util.Image
 
 class MainActivity : AppCompatActivity() {
     // implantar o binding
@@ -29,6 +30,10 @@ class MainActivity : AppCompatActivity() {
         binding.btnAdd.setOnClickListener {
             val intent = Intent(this@MainActivity, AddBusinessCardActivity::class.java)
             startActivity(intent)
+        }
+
+        adapter.listenerShare = { card ->
+            Image.share(this@MainActivity, card)
         }
     }
 

@@ -14,4 +14,5 @@
     <string name="label_confirm">Salvar</string>
     <string name="label_show_success">Cartao Cadastrado!</string>
     <string name="label_show_fail">Corrija os Erros e tente novamente</string>
+    <string name="label_share">Compartilhar</string>
 </resources>
