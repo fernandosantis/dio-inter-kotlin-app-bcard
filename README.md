@@ -26,7 +26,8 @@ O Professor e **Igor Baglliotti** nos passou este projeto e nos incubiu de melho
 
 ## #TODO
 
-Na implementação do **Compartilhamento do Cartão**, está ocorrendo o erro, <u>android.os.FileUriExposedException:</u> que pelo visto está relacionado à permissões de acesso. 
+- Na implementação do **Compartilhamento do Cartão**, está ocorrendo o erro, <u>android.os.FileUriExposedException:</u> que pelo visto está relacionado à permissões de acesso. 
+- A implementar opções para se excluir e alterar os cards e foto dos Cards.
 
 
 
